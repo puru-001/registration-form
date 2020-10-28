@@ -199,95 +199,13 @@ h6 {
   font-size: 18px;
   color: #fff;
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    align-items: center;
+      justify-content: center;
+      padding: 0 192px;
+      background: orangered !important;
+      color: white;
+  
 }
-
-.btn--radius {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-.btn--radius-2 {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.btn--pill {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-}
-
-.btn--green {
-  background: #57b846;
-}
-
-.btn--green:hover {
-  background: #4dae3c;
-}
-
-.btn--blue {
-  background: #4272d7;
-}
-
-.btn--blue:hover {
-  background: #3868cd;
-}
-
-/* ==========================================================================
-   #DATE PICKER
-   ========================================================================== */
-td.active {
-  background-color: #2c6ed5;
-}
-
-input[type="date" i] {
-  padding: 14px;
-}
-
-.table-condensed td, .table-condensed th {
-  font-size: 14px;
-  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-  font-weight: 400;
-}
-
-.daterangepicker td {
-  width: 40px;
-  height: 30px;
-}
-
-.daterangepicker {
-  border: none;
-  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  display: none;
-  border: 1px solid #e0e0e0;
-  margin-top: 5px;
-}
-
-.daterangepicker::after, .daterangepicker::before {
-  display: none;
-}
-
-.daterangepicker thead tr th {
-  padding: 10px 0;
-}
-
-.daterangepicker .table-condensed th select {
-  border: 1px solid #ccc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 14px;
-  padding: 5px;
-  outline: none;
-}
-
-/* ==========================================================================
-   #FORM
-   ========================================================================== */
 input {
   outline: none;
   margin: 0;
@@ -317,13 +235,7 @@ input {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-.btn {
-  align-items: center;
-    justify-content: center;
-    padding: 0 192px;
-    background: orangered !important;
-    color: white;
-}
+
 
 .input--style-4::-webkit-input-placeholder {
   color: #666;
@@ -345,54 +257,6 @@ line-height: 30px !important;
   display: block;
   margin-bottom: 5px;
 }
-
-.radio-container {
-  display: inline-block;
-  position: relative;
-  padding-left: 30px;
-  cursor: pointer;
-  font-size: 16px;
-  color: #666;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.radio-container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-
-
-.checkmark {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #e5e5e5;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
-  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
 .input-group {
   position: relative;
   margin-bottom: 22px;
@@ -544,6 +408,13 @@ line-height: 30px !important;
 .card-4 .card-body {
   padding: 57px 65px;
   padding-bottom: 65px;
+}
+
+.select{
+  padding: 15px 57px;
+    font-size: inherit;
+    color: gray;
+    font-size: 15px;
 }
 
 @media (max-width: 767px) {
